@@ -57,12 +57,8 @@ dependencies {
 
     // Build off of nightly TensorFlow Lite
     implementation 'org.tensorflow:tensorflow-lite:0.0.0-nightly'
-//    compile group: 'org.tensorflow', name: 'tensorflow-lite', version: '1.15.0'
     implementation 'org.tensorflow:tensorflow-lite-gpu:0.0.0-nightly'
-    implementation 'com.quickbirdstudios:opencv:4.1.0'
     implementation 'jp.co.cyberagent.android:gpuimage:2.0.3'
-    // Use local TensorFlow library
-    // implementation 'org.tensorflow:tensorflow-lite-local:0.0.0'
     implementation 'org.tensorflow:tensorflow-lite:+'
 }
 
