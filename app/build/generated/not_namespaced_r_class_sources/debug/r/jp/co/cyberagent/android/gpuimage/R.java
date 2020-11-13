@@ -12,19 +12,19 @@ public final class R {
     public static final class attr {
         private attr() {}
 
-        public static final int gpuimage_show_loading = 0x7f030086;
-        public static final int gpuimage_surface_type = 0x7f030087;
+        public static final int gpuimage_show_loading = 0x7f030085;
+        public static final int gpuimage_surface_type = 0x7f030086;
     }
     public static final class id {
         private id() {}
 
-        public static final int surface_view = 0x7f080095;
-        public static final int texture_view = 0x7f0800a1;
+        public static final int surface_view = 0x7f080092;
+        public static final int texture_view = 0x7f08009e;
     }
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] GPUImageView = { 0x7f030086, 0x7f030087 };
+        public static final int[] GPUImageView = { 0x7f030085, 0x7f030086 };
         public static final int GPUImageView_gpuimage_show_loading = 0;
         public static final int GPUImageView_gpuimage_surface_type = 1;
     }

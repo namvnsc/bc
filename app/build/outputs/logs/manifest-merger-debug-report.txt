@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:3:1-26:12
-INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:3:1-26:12
-INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:3:1-26:12
-INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:3:1-26:12
+ADDED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:3:1-27:12
+INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:3:1-27:12
+INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:3:1-27:12
+INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:3:1-27:12
 MERGED from [com.android.support:design:25.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\481f6dd1f753e425581479b9921ce29b\design-25.2.0\AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\85805c30bd68ab0df5d6d5be81fe5bc3\appcompat-v7-25.2.0\AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\cb20b76ed225fe8217fdebe6b4cd159d\constraint-layout-1.0.2\AndroidManifest.xml:2:1-11:12
@@ -20,43 +20,42 @@ MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Admin\.gradle\
 MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\faf82acb9880cd88ab3991b43c74b821\support-compat-25.2.0\AndroidManifest.xml:17:1-27:12
 MERGED from [org.tensorflow:tensorflow-lite:2.3.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\ab3c8755361a9c12a1cb54c91489bfc6\tensorflow-lite-2.3.0\AndroidManifest.xml:2:1-12:12
 MERGED from [org.tensorflow:tensorflow-lite-gpu:0.0.0-nightly] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3e5d881cd81892ae644d35310c7df9fe\tensorflow-lite-gpu-0.0.0-nightly\AndroidManifest.xml:2:1-12:12
-MERGED from [com.quickbirdstudios:opencv:4.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\83e3b8f3b190f57d0fd4db1dc5801738\opencv-4.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [jp.co.cyberagent.android:gpuimage:2.0.3] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\b910176fcb17fb31ed38882cee79f43c\gpuimage-2.0.3\AndroidManifest.xml:2:1-11:12
-INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:3:1-26:12
-INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:3:1-26:12
-INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:3:1-26:12
+INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:3:1-27:12
+INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:3:1-27:12
+INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:3:1-27:12
 	package
-		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:4:5-52
-		INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:4:5-43
+		INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:3:1-26:12
-		INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:3:1-27:12
+		INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:3:1-26:12
-		INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:3:1-27:12
+		INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:3:11-69
+		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:3:11-69
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:6:5-65
+ADDED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:6:5-65
 	android:name
-		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:6:22-62
+		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:6:22-62
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:7:5-81
+ADDED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:7:22-78
+		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:7:22-78
 uses-feature#android.hardware.camera
-ADDED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:9:5-60
+ADDED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:9:5-60
 	android:name
-		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:9:19-57
+		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:9:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:10:5-70
+ADDED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:10:5-70
 	android:name
-		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:10:19-67
+		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:10:19-67
 application
-ADDED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:12:5-24:19
+ADDED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:12:5-25:19
 MERGED from [com.android.support:design:25.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\481f6dd1f753e425581479b9921ce29b\design-25.2.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:design:25.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\481f6dd1f753e425581479b9921ce29b\design-25.2.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\85805c30bd68ab0df5d6d5be81fe5bc3\appcompat-v7-25.2.0\AndroidManifest.xml:25:5-20
@@ -88,33 +87,35 @@ MERGED from [org.tensorflow:tensorflow-lite:2.3.0] C:\Users\Admin\.gradle\caches
 MERGED from [org.tensorflow:tensorflow-lite-gpu:0.0.0-nightly] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3e5d881cd81892ae644d35310c7df9fe\tensorflow-lite-gpu-0.0.0-nightly\AndroidManifest.xml:10:5-20
 MERGED from [org.tensorflow:tensorflow-lite-gpu:0.0.0-nightly] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3e5d881cd81892ae644d35310c7df9fe\tensorflow-lite-gpu-0.0.0-nightly\AndroidManifest.xml:10:5-20
 	android:label
-		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:13:9-41
+		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:13:9-41
 	android:allowBackup
-		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:12:18-44
+		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:12:18-44
 	android:theme
-		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:14:9-45
-activity#com.example.android.tflitecamerademo4.CameraActivity
-ADDED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:16:9-23:20
+		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:14:9-45
+activity#com.example.android.blur_cam.CameraActivity
+ADDED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:16:9-24:20
 	android:screenOrientation
-		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:17:19-55
+		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:17:19-55
 	android:label
-		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:18:19-51
+		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:19:19-51
+	android:icon
+		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:18:19-55
 	android:name
-		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:16:19-86
+		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:16:19-77
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:19:13-22:29
+ADDED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:20:13-23:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml:22:27-74
 uses-sdk
-INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:design:25.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\481f6dd1f753e425581479b9921ce29b\design-25.2.0\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:design:25.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\481f6dd1f753e425581479b9921ce29b\design-25.2.0\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\85805c30bd68ab0df5d6d5be81fe5bc3\appcompat-v7-25.2.0\AndroidManifest.xml:21:5-23:78
@@ -147,21 +148,19 @@ MERGED from [org.tensorflow:tensorflow-lite:2.3.0] C:\Users\Admin\.gradle\caches
 MERGED from [org.tensorflow:tensorflow-lite:2.3.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\ab3c8755361a9c12a1cb54c91489bfc6\tensorflow-lite-2.3.0\AndroidManifest.xml:7:5-8:41
 MERGED from [org.tensorflow:tensorflow-lite-gpu:0.0.0-nightly] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3e5d881cd81892ae644d35310c7df9fe\tensorflow-lite-gpu-0.0.0-nightly\AndroidManifest.xml:7:5-8:41
 MERGED from [org.tensorflow:tensorflow-lite-gpu:0.0.0-nightly] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3e5d881cd81892ae644d35310c7df9fe\tensorflow-lite-gpu-0.0.0-nightly\AndroidManifest.xml:7:5-8:41
-MERGED from [com.quickbirdstudios:opencv:4.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\83e3b8f3b190f57d0fd4db1dc5801738\opencv-4.1.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.quickbirdstudios:opencv:4.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\83e3b8f3b190f57d0fd4db1dc5801738\opencv-4.1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [jp.co.cyberagent.android:gpuimage:2.0.3] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\b910176fcb17fb31ed38882cee79f43c\gpuimage-2.0.3\AndroidManifest.xml:7:5-9:41
 MERGED from [jp.co.cyberagent.android:gpuimage:2.0.3] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\b910176fcb17fb31ed38882cee79f43c\gpuimage-2.0.3\AndroidManifest.xml:7:5-9:41
-INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\481f6dd1f753e425581479b9921ce29b\design-25.2.0\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml
-		MERGED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml
-		MERGED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\app demo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml
+		MERGED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml
+		MERGED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\Desktop\_\do_an_STP\blur_cam\app\src\main\AndroidManifest.xml

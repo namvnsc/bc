@@ -16,7 +16,7 @@
 
 /*
  * This file is auto-generated. DO NOT MODIFY!
- * The source Renderscript file: C:\\Users\\Admin\\Desktop\\_\\do_an_STP\\app demo\\app\\src\\main\\rs\\saturation.rs
+ * The source Renderscript file: C:\\Users\\Admin\\Desktop\\_\\do_an_STP\\blur_cam\\app\\src\\main\\rs\\saturation.rs
  */
 
 package com.example.android.tflitecamerademo;

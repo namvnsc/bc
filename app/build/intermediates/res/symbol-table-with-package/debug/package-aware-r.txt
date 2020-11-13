@@ -85,7 +85,6 @@ attr buttonStyle
 attr buttonStyleSmall
 attr buttonTint
 attr buttonTintMode
-attr camera_id
 attr checkboxStyle
 attr checkedTextViewStyle
 attr closeIcon
@@ -289,7 +288,6 @@ attr showAsAction
 attr showDividers
 attr showText
 attr showTitle
-attr show_fps
 attr singleChoiceItemLayout
 attr spanCount
 attr spinBars
@@ -712,6 +710,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_launcher
 drawable ic_launcher_background
 drawable navigation_empty_icon
 drawable notification_action_background
@@ -750,9 +749,7 @@ id add
 id alertTitle
 id all
 id always
-id any
 id auto
-id back
 id basic
 id beginning
 id bottom
@@ -796,7 +793,6 @@ id fill
 id fill_horizontal
 id fill_vertical
 id fixed
-id front
 id gpuimageview
 id home
 id homeAsUp
@@ -976,6 +972,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
+mipmap ic_launcher_background
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string abc_action_bar_home_description
@@ -1435,7 +1432,6 @@ styleable AppCompatTheme android_windowIsFloating android_windowAnimationStyle a
 styleable BottomNavigationView elevation itemBackground itemIconTint itemTextColor menu
 styleable BottomSheetBehavior_Layout behavior_hideable behavior_peekHeight behavior_skipCollapsed
 styleable ButtonBarLayout allowStacking
-styleable CameraBridgeViewBase camera_id show_fps
 styleable CollapsingToolbarLayout collapsedTitleGravity collapsedTitleTextAppearance contentScrim expandedTitleGravity expandedTitleMargin expandedTitleMarginBottom expandedTitleMarginEnd expandedTitleMarginStart expandedTitleMarginTop expandedTitleTextAppearance scrimAnimationDuration scrimVisibleHeightTrigger statusBarScrim title titleEnabled toolbarId
 styleable CollapsingToolbarLayout_Layout layout_collapseMode layout_collapseParallaxMultiplier
 styleable ColorStateListItem android_color android_alpha alpha

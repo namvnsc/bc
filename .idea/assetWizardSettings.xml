@@ -67,7 +67,8 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="scalingPercent" value="5" />
+                                                <entry key="imagePath" value="C:\Users\Admin\Desktop\ic_launcher.png" />
+                                                <entry key="scalingPercent" value="0" />
                                                 <entry key="trimmed" value="true" />
                                               </map>
                                             </option>
