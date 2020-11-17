@@ -62,7 +62,6 @@ public class Camera2BasicFragment extends Fragment implements FragmentCompat.OnR
     public GPUImageView gpuImageView;
     public GPUImageToneCurveFilter curve_filter;
     InputStream is = null;
-    public Bitmap bgd, bgd1;
     private String cameraId;
     public static AutoFitTextureView textureView;
     private CameraCaptureSession captureSession;
@@ -273,8 +272,6 @@ public class Camera2BasicFragment extends Fragment implements FragmentCompat.OnR
         BitmapFactory.Options options = new BitmapFactory.Options();
         options.inScaled = false;
 
-        // Load background images
-//        bgd = bgd1 = BitmapFactory.decodeResource(getResources(), R.drawable.dock_vbig, options);
     }
 
 
@@ -398,10 +395,6 @@ public class Camera2BasicFragment extends Fragment implements FragmentCompat.OnR
                 cameraDevice.close();
                 cameraDevice = null;
             }
-//            if (null != imageReader) {
-//                imageReader.close();
-//                imageReader = null;
-//            }
         } catch (InterruptedException e) {
             throw new RuntimeException("Interrupted while trying to lock camera closing.", e);
         } finally {

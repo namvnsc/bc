@@ -21,38 +21,35 @@ public class ImageSegmentor {
 
   static String TAG = "deeplab";
   static int W = 128, H = 128;
-
+  static int frame_height = 640, frame_width = 512;
   static Interpreter.Options tfliteOptions = new Interpreter.Options();
   static MappedByteBuffer tfliteModel;
   static Interpreter tflite;
   static int[] intValues = new int[W*H];
+  static int[] val = new int[frame_width*frame_height];
   static ByteBuffer imgData = null;
-  static Bitmap result = null;
-  static GpuDelegate gpuDelegate = null;
+  static Bitmap result = Bitmap.createBitmap(frame_width, frame_height, Bitmap.Config.ARGB_8888);
+  static GpuDelegate gpuDelegate = new GpuDelegate();
   static float[][][][] segmap = new float[1][W][H][2];
-  static int frame_height = 640, frame_width = 512;
 
   static void init(Activity activity) throws IOException {
     tfliteModel = loadModelFile(activity);
-    gpuDelegate =  new GpuDelegate();
     tfliteOptions.addDelegate(gpuDelegate);
     tfliteOptions.setNumThreads(4);
     tfliteOptions.setAllowFp16PrecisionForFp32(true);
     tflite = new Interpreter(tfliteModel, tfliteOptions);
     imgData = ByteBuffer.allocateDirect(W * H * 12);
     imgData.order(ByteOrder.nativeOrder());
-    segmap = new float[1][W][H][2];
-    result = Bitmap.createBitmap(frame_width, frame_height, Bitmap.Config.ARGB_8888);
   }
 
   ImageSegmentor(){
   }
 
   static void segmentFrame(Bitmap bitmap, Bitmap fgd) {
-//      long t1 = SystemClock.uptimeMillis();
+      long t1 = SystemClock.uptimeMillis();
       convertBitmapToByteBuffer(bitmap);
-//      long t2 = SystemClock.uptimeMillis();
-//      Log.e(TAG, "t convert bitmap to input: "+(t2-t1));
+      long t2 = SystemClock.uptimeMillis();
+      Log.e(TAG, "t convert bitmap to input: "+(t2-t1));
 
       tflite.run(imgData, segmap);
 //      long t3 = SystemClock.uptimeMillis();
@@ -73,13 +70,12 @@ public class ImageSegmentor {
                 imgData.putFloat(((val >> 16) & 0xFF));
                 imgData.putFloat(((val >> 8) & 0xFF));
                 imgData.putFloat((val & 0xFF));
-                }
+            }
         }
     }
-
-  static boolean[][] toMap(){
+  static boolean[][] map = new boolean[frame_height][frame_width];
+  static void toMap(){
       int sw = (frame_width+W-1)/W, sh = (frame_height+H-1)/H;
-      boolean[][] map = new boolean[frame_height][frame_width];
       for(int i = 0; i < H; i++){
           for(int j = 0; j < W; j++){
               boolean val = true;
@@ -94,35 +90,35 @@ public class ImageSegmentor {
               }
           }
       }
-      return map;
+//      return map;
   }
-
+  static int k = 2;
+  static int[][][] pxtmp = new int[frame_height+2*k][frame_width+2*k][4];
+  static int[][][] px = new int[frame_height][frame_width][4];
+  static int[] x = new int[4];
+  static int[] acc = new int[4];
 
   static void inputToBitmap(Bitmap bitmap){
       // resize output of model to original size
       long t1 = SystemClock.uptimeMillis();
-      boolean[][] map = toMap();
-      long t2 = SystemClock.uptimeMillis();
+      toMap();
+//      long t2 = SystemClock.uptimeMillis();
       // convert bitmap to float array
-      int[] val = new int[frame_width*frame_height];
       bitmap.getPixels(val, 0, bitmap.getWidth(), 0, 0, bitmap.getWidth(), bitmap.getHeight());
-      int sz = 0, k = 3;
-      int[][][] pxtmp = new int[frame_height+2*k][frame_width+2*k][4];
-      int[][][] px = new int[frame_height][frame_width][4];
-      int[] x = new int[4];
-      int[] acc = new int[4];
+//      long ttt = SystemClock.uptimeMillis();
+      int sz = 0;
       for(int i = 0; i < frame_height; i++){
-          for(int o = 0; o < 3; o++){
+          for(int o = 1; o < 4; o++){
               acc[o] = 0;
           }
           for(int j = 0; j < frame_width; j++){
               int tmp  = val[sz++];
               for(int o = 0; o < 4; o++){
-                  x[o] = (tmp>>(8*(3-o)))& 0xFF;
+                  x[o] = (tmp>>(8*(3-o))) & 0xFF;
                   acc[o] += x[o];
               }
-              pxtmp[i+k][j+k][0] = x[0];
-              for(int o = 1; o <= 3; o++){
+              px[i][j][0] = x[0];
+              for(int o = 1; o < 4; o++){
                   pxtmp[i+k][j+k][o] = acc[o];
                   if(i>0){
                       pxtmp[i+k][j+k][o] += pxtmp[i-1+k][j+k][o];
@@ -131,9 +127,10 @@ public class ImageSegmentor {
 
           }
       }
-      long t3 = SystemClock.uptimeMillis();
+//      long t3 = SystemClock.uptimeMillis();
       sz = 0;
 //      ArrayList<Integer> ai = new ArrayList<>();
+//      int cl = Color.parseColor("#050505");
       for(int i = 0; i < frame_height; i++){
           for(int j = 0; j < frame_width; j++){
               if(!map[i][j]){
@@ -147,13 +144,15 @@ public class ImageSegmentor {
 //                  }
 //                  Collections.sort(ai);
 //                  val[sz] = ai.get(ai.size()/2);
-                  val[sz] = Color.rgb(px[i][j][1], px[i][j][2], px[i][j][3]);
+                  val[sz] = Color.argb(px[i][j][0], px[i][j][1], px[i][j][2], px[i][j][3]);
+//                  val[sz] = cl;
               }
               sz++;
           }
       }
       long t4 = SystemClock.uptimeMillis();
-      Log.e("time: ", (t2-t1)+" "+(t3-t2)+" "+(t4-t3));
+//      Log.e("time: ", (ttt-t2)+" " + (t2-t1)+" "+(t3-ttt)+" "+(t4-t3));
+      Log.e("d", ""+(t4-t1));
       result.setPixels(val, 0, bitmap.getWidth(), 0, 0, bitmap.getWidth(), bitmap.getHeight());
   }
 
